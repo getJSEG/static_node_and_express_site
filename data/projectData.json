@@ -1,0 +1,42 @@
+{
+    "data": {
+        "title": "Projects",
+        "projects": [
+            {
+                "Description": "Simple program that displays random inpirational quotes",
+                "thumbnail": "random-quote.png",
+                "title": "Random Quote Generator",
+                "GitHubRepo":"",
+                "technologies":["HTML", "CSS", "JavaScript"]
+            },
+            {
+                "Description": "A form with with front end validation",
+                "thumbnail": "interactive-form.jpg",
+                "title": "Interactive Form",
+                "GitHubRepo":"",
+                "technologies":["HTML", "CSS", "JavaScript"]
+            },
+            {
+                "Description": "Simple Pagination witch breacks the content into multiple pages",
+                "thumbnail": "pagination.png",
+                "title": "Pagination",
+                "GitHubRepo":"",
+                "technologies":["HTML", "CSS", "JavaScript"]
+            },
+            {
+                "Description": "How many different values can booleans have?",
+                "thumbnail": "public-api-request.png",
+                "title": "Public API Request",
+                "GitHubRepo":"",
+                "technologies":["HTML", "CSS", "JavaScript"]
+            },
+            {
+                "Description": "A Basic Game of Tic Tac Toe witch can be played with 1 or 2 Players",
+                "thumbnail": "TicTacToe.png",
+                "title": "Tic Tac Toe",
+                "GitHubRepo":"",
+                "technologies":["HTML", "CSS", "JavaScript"]
+            }
+        ]
+    }
+}
