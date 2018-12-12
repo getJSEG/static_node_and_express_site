@@ -19,9 +19,9 @@ block content
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
       
       //- Here's what the Pug for each project example should look like. te
-      each project in projects
+      each val, index in projects
           .cell
-            a(href='/project/' + project.title)
-              img.thumbnail(src= "../static/img/"+ project.thumbnail )
-              h5= project.title
+            a(href='/project/' + index)
+              img.thumbnail(src= "../static/img/"+ val.thumbnail)
+              h5= val.title
 

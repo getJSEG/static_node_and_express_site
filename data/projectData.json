@@ -3,39 +3,49 @@
         "title": "Projects",
         "projects": [
             {
-                "Description": "Simple program that displays random inpirational quotes",
-                "thumbnail": "random-quote.png",
                 "title": "Random Quote Generator",
-                "GitHubRepo":"",
-                "technologies":["HTML", "CSS", "JavaScript"]
+                "description": "Simple program that displays random inpirational quotes",
+                "technologies":["HTML", "CSS", "JavaScript"],
+                "thumbnail": "random-quote.png",
+                "gitHubRepo":"#",
+                "liveDemo": "#",
+                "projectImages": ["#","#", "#"]                
+                
             },
             {
-                "Description": "A form with with front end validation",
-                "thumbnail": "interactive-form.jpg",
                 "title": "Interactive Form",
-                "GitHubRepo":"",
-                "technologies":["HTML", "CSS", "JavaScript"]
+                "description": "A form with with front end validation",
+                "technologies":["HTML", "CSS", "JavaScript"],
+                "thumbnail": "interactive-form.jpg",
+                "GitHubRepo":"#",
+                "liveDemo": "#",
+                "projectImages": ["#","#", "#"]                
             },
             {
-                "Description": "Simple Pagination witch breacks the content into multiple pages",
-                "thumbnail": "pagination.png",
                 "title": "Pagination",
-                "GitHubRepo":"",
-                "technologies":["HTML", "CSS", "JavaScript"]
+                "description": "Simple Pagination witch breacks the content into multiple pages",
+                "technologies":["HTML", "CSS", "JavaScript"],
+                "thumbnail": "pagination.png",
+                "GitHubRepo":""
+                
+                
             },
             {
-                "Description": "How many different values can booleans have?",
-                "thumbnail": "public-api-request.png",
                 "title": "Public API Request",
-                "GitHubRepo":"",
-                "technologies":["HTML", "CSS", "JavaScript"]
-            },
+                "description": "How many different values can booleans have?",
+                "technologies":["HTML", "CSS", "JavaScript"],
+                "thumbnail": "public-api-request.png",
+                "GitHubRepo":"#",
+                "liveDemo": "#",
+                "projectImages": ["#","#", "#"]            },
             {
-                "Description": "A Basic Game of Tic Tac Toe witch can be played with 1 or 2 Players",
-                "thumbnail": "TicTacToe.png",
                 "title": "Tic Tac Toe",
-                "GitHubRepo":"",
-                "technologies":["HTML", "CSS", "JavaScript"]
+                "description": "A Basic Game of Tic Tac Toe witch can be played with 1 or 2 Players",
+                "technologies":["HTML", "CSS", "JavaScript"],
+                "thumbnail": "TicTacToe.png",
+                "GitHubRepo":"#",
+                "liveDemo": "#",
+                "projectImages": ["#","#", "#"]                
             }
         ]
     }
