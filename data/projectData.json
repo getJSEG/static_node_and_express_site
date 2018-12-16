@@ -1,51 +1,60 @@
 {
     "data": {
-        "title": "Projects",
+        "project_name": "Projects",
         "projects": [
             {
-                "title": "Random Quote Generator",
+                "id": "0",
+                "project_name": "Random Quote Generator",
                 "description": "Simple program that displays random inpirational quotes",
                 "technologies":["HTML", "CSS", "JavaScript"],
-                "thumbnail": "random-quote.png",
-                "gitHubRepo":"#",
-                "liveDemo": "#",
-                "projectImages": ["#","#", "#"]                
-                
+                "thumbnail": "random-quotes.jpg",
+                "github_link":"https://github.com/getJSEG/Random-Quote-Generator",
+                "live_link": "#",
+                "image_folder_directory": "random-quote-gen",
+                "project_images": ["quote-01.jpg","quote-02.jpg", "quote-03.jpg"]               
             },
             {
-                "title": "Interactive Form",
+                "id": "1",
+                "project_name": "Interactive Form",
                 "description": "A form with with front end validation",
                 "technologies":["HTML", "CSS", "JavaScript"],
                 "thumbnail": "interactive-form.jpg",
-                "GitHubRepo":"#",
-                "liveDemo": "#",
-                "projectImages": ["#","#", "#"]                
+                "github_link":"https://github.com/getJSEG/InteractiveForm",
+                "live_link": "#",
+                "image_folder_directory": "interactive-form",
+                "project_images": ["pic-01.jpg","pic-02.jpg", "pic-03.jpg"]                
             },
             {
-                "title": "Pagination",
+                "id": "2",
+                "project_name": "Pagination",
                 "description": "Simple Pagination witch breacks the content into multiple pages",
                 "technologies":["HTML", "CSS", "JavaScript"],
-                "thumbnail": "pagination.png",
-                "GitHubRepo":""
-                
-                
+                "thumbnail": "pagination.jpg",
+                "image_folder_directory": "pagination",
+                "github_link":"https://github.com/getJSEG/Pagination",
+                "project_images": ["pic-01.jpg","pic-02.jpg", "pic-03.jpg"] 
             },
             {
-                "title": "Public API Request",
+                "id": "3",
+                "project_name": "Public API Request",
                 "description": "How many different values can booleans have?",
                 "technologies":["HTML", "CSS", "JavaScript"],
-                "thumbnail": "public-api-request.png",
-                "GitHubRepo":"#",
-                "liveDemo": "#",
-                "projectImages": ["#","#", "#"]            },
+                "thumbnail": "api-request.jpg",
+                "github_link":"https://github.com/getJSEG/public-api-request",
+                "live_link": "#",
+                "image_folder_directory": "api-request",
+                "project_images": ["pic-01.jpg","pic-02.jpg", "pic-03.jpg"]
+            },
             {
-                "title": "Tic Tac Toe",
+                "id": "4",
+                "project_name": "Tic Tac Toe",
                 "description": "A Basic Game of Tic Tac Toe witch can be played with 1 or 2 Players",
                 "technologies":["HTML", "CSS", "JavaScript"],
-                "thumbnail": "TicTacToe.png",
-                "GitHubRepo":"#",
-                "liveDemo": "#",
-                "projectImages": ["#","#", "#"]                
+                "thumbnail": "tictactoe.jpg",
+                "github_link":"https://github.com/getJSEG/tictactoe",
+                "live_link": "#",
+                "image_folder_directory":"tictactoe",
+                "project_images": ["Gameover-screen.jpg","Game-Screen.jpg", "StartMenu.jpg"]                
             }
         ]
     }

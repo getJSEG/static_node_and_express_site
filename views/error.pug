@@ -1,0 +1,12 @@
+extends layout.pug
+
+block content
+    .error
+        h4.status status
+        h1.error-status= `${error.status}`
+
+        h3.error-message= `${error.message}`
+
+        .btn-container
+            a.error-back-button(href='/') Go Back
+        

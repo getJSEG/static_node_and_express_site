@@ -1,6 +1,92 @@
-/*index*/
-.thumbnail{
+h1,h2,h3,h4,h5,p, h6{
+  font-family: 'roboto', sans-serif;
+  letter-spacing: 0px;
+}
+h5{
+    text-transform: capitalize;
+}
+h1 {  font-weight: 700; }
+h6 {
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.button{
     border-radius: 10px;
+    background-color: #107ac1;
+}
+.button:nth-of-type(2){
+    background-color: #333;
 }
 
+.portfolio-me{
+    background: #f5f5f5;
+}
+.cell h5{
+    color:#858585;
+}
 
+.js-off-canvas-overlay {
+    background: rgba(0, 0, 0, 0.60);
+}
+
+/*title bar*/
+.title-bar-title{
+    padding-left: 1rem;
+    letter-spacing: 1px;
+}
+.menu-icon:after {
+    background: #333;
+    box-shadow: 0 7px 0 #333,
+               0 14px 0 #333;
+}
+.title-bar{
+    padding: 1.5rem;
+    background-color: #f5f5f5;
+    color: #333;
+    box-shadow: 0px 1px 2px #adadad;
+}
+
+/*index*/
+.thumbnail, .image{
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+    transition: 0.4s ease;
+}
+.thumbnail:hover{
+    opacity: .3;
+    width: 98%;
+}
+.lead, .title-bar-title{
+    font-style: italic;
+}
+/*error*/
+.error{
+    padding-top: 8rem;
+    text-align: center;
+    color: #333;
+}
+.status{
+    font-size: 4rem
+}
+.error-status{
+    font-size: 10rem;
+    text-shadow: 0.3rem 0.3rem rgba(232,54,54,0.74);
+}
+.error-message{
+    font-size: 5rem;
+}
+
+.error-back-button{
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: #585858;
+}
+.error-back-button:hover{
+    color: #fff;
+    background-color: #333;
+}
+.btn-container{
+    margin-top: 7rem;
+}

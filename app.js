@@ -17,17 +17,18 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
-//app.use((req, res, next)=>{
-//    const error = new Error('Not Found');
-//    error.status = 404;
-//    next(notFound);
-//});
-//
-//app.use((err, req, res, next) => {
-//    res.locals.error = err;
-//    res.status(err.status);
-//    res.render('error', err);
-//});
+//Error Handling
+app.use((req, res, next)=>{
+    const error = new Error('Not Found');
+    error.status = 404;
+    next(error);
+});
+
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error');
+});
 
 //Port
 app.listen(port);
