@@ -47,13 +47,13 @@ h6 {
 }
 
 /*index*/
-.thumbnail, .image{
+.cell .thumbnail, .image{
     border: none;
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     width: 100%;
     transition: 0.4s ease;
 }
-.thumbnail:hover{
+.cell .thumbnail:hover{
     opacity: .3;
     width: 98%;
 }
@@ -89,4 +89,14 @@ h6 {
 }
 .btn-container{
     margin-top: 7rem;
+}
+
+.shrink .thumbnail{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+.shrink .thumbnail:hover{
+    opacity: 1;
 }
